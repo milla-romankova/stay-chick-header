@@ -1,0 +1,24 @@
+.header {
+  &__logo{
+    height: 120px;
+
+    @media (max-width: 900px) {
+      height: 80px;
+    }
+  }
+}
+
+.logged .nav__item--logged {
+  display: block;
+}
+
+.logged .nav__login {
+  display: none;
+}
+
+.logged .nav__item--smallvw {
+  @media(max-width: 900px) {
+    display: none;
+  }
+
+}
