@@ -7,7 +7,9 @@ button.addEventListener('click', function() {
 
   if (!header.classList.toString().includes('logged')) {
     header.classList.add('logged');
+    button.innerHTML = 'Remove class';
   } else {
-    header.classList.remove('logged')
+    header.classList.remove('logged');
+    button.innerHTML = 'Add class';
   }
 });
