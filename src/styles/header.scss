@@ -1,4 +1,14 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7vw;
+  background-color: white;
+
+  @media(max-width: 900px) {
+    padding: 2px 2vw;
+  }
+
   &__logo{
     height: 120px;
 
@@ -20,5 +30,4 @@
   @media(max-width: 900px) {
     display: none;
   }
-
 }
