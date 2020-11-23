@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 2vw;
+  padding: 0 5vw;
   background-color: white;
 
   @media(min-width: 900px) {
-    padding: 5px 7vw;
+    padding: 0 7vw;
   }
 
   &__logo {
-    height: 80px;
+    height: 78px;
 
     @media (min-width: 900px) {
-      height: 120px;
+      height: 123px;
     }
   }
 }
@@ -32,4 +32,12 @@
   @media(min-width: 900px) {
     display: block;
   }
+}
+
+.logged .nav__link {
+  margin-right: 15px;
+}
+
+.logged .nav__link--menu {
+  margin-right: 0;
 }
